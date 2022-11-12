@@ -1,0 +1,46 @@
+.container {
+  padding: 1rem;
+}
+
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+}
+
+.skeletonImg {
+  width: 300px;
+  height: 300px;
+}
+
+.skeletonText {
+  width: 300px;
+  height: 60px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding-left: 4rem;
+  }
+
+  .image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .skeletonImg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .skeletonText {
+    width: 150px;
+    height: 60px;
+  }
+}

@@ -1,0 +1,23 @@
+.container {
+  padding: 1rem;
+}
+
+.skeletonText {
+  width: 350px;
+  height: 60px;
+}
+
+.skeletonImg {
+  width: 80px;
+  height: 118px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0;
+  }
+  .skeletonText {
+    width: 200px;
+    height: 60px;
+  }
+}

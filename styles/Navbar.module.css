@@ -1,0 +1,15 @@
+.container {
+  height: 60px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  border-bottom: 1px solid #e5e9ec;
+  background-color: #fff;
+  z-index: 3;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

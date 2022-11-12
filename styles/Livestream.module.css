@@ -1,0 +1,29 @@
+.container {
+  padding: 1rem;
+}
+
+.mainCard {
+  width: 155px;
+  height: 230px;
+  border-radius: 8px;
+  padding: 8px;
+  position: relative;
+}
+
+.chip {
+  background-color: #adb1b4;
+  border-radius: "6px";
+  color: #fff;
+}
+
+.content {
+  position: absolute;
+  bottom: 10px;
+  color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0;
+  }
+}

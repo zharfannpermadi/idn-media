@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.chip {
+  padding: 6px 32px;
+  height: 32px;
+}
+
+@media screen and (max-width: 480px) {
+  .chip {
+    padding: 6px 16px;
+  }
+}
