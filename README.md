@@ -14,8 +14,8 @@ git clone -b master https://github.com/zharfannpermadi/idn-media.git
 npm install
 
 Usage
-npm run dev
+> npm run dev
 
 Acknowledgments
-Material UI
-Axios
+> Material UI
+> Axios
