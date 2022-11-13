@@ -8,10 +8,10 @@ NEXT JS as a framework React and JavaScript as a Programming Language.
 
 Installation
 1. Clone the repo from branch master
-git clone -b master https://github.com/zharfannpermadi/idn-media.git
+> git clone -b master https://github.com/zharfannpermadi/idn-media.git
 
 2. Install NPM Packages
-npm install
+> npm install
 
 Usage
 > npm run dev
